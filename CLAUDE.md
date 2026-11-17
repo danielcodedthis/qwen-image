@@ -12,7 +12,7 @@ Two FastAPI services wrapping the `diffusers` `QwenImage21Pipeline`, running on
 AMD ROCm against a Radeon AI PRO R9700 (gfx1201, RDNA4, 32GB VRAM), on Arch
 Linux, **96GB system RAM** (upgraded from 32GB):
 
-- `qwen-image-api` (`:8000`, UI `qwen-image-ui` on `:5008`): Qwen-Image-2.1 (base).
+- `qwen-image-api` (`:8000`, UI `qwen-image-ui` on `:5014`): Qwen-Image-2.1 (base).
 - `qwen-image-turbo-api` (`:8001`, UI `qwen-image-turbo-ui` on `:5009`):
   Qwen-Image-2.1-Turbo only.
 

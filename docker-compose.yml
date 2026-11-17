@@ -75,14 +75,14 @@ services:
     image: nginx:alpine
     container_name: qwen-image-ui
     ports:
-      - "5008:80"
+      - "5014:80"
     volumes:
       - ./web:/usr/share/nginx/html:ro
     depends_on:
       - qwen-image-api
     restart: "no"
 
-  # Same web files as above; opened on :3001 it automatically talks to the Turbo API (:8001).
+  # Same web files as above; opened on :5009 it automatically talks to the Turbo API (:8001).
   qwen-image-turbo-ui:
     image: nginx:alpine
     container_name: qwen-image-turbo-ui
